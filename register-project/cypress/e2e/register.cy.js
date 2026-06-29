@@ -78,7 +78,7 @@ describe('register sayfasi', () => {
       // Arrange
       //cy.visit('http://localhost:5173/')
       //Assert
-      cy.get('[data-cy="ad-input"]').type('Emre')
+      cy.get('[data-cy="ad-input"]').type('Mehmet')
       cy.get('[data-cy="soyad-input"]').type('Cetin')
       cy.get('[data-cy="email-input"]').type('emre@wit.com.tr')
       cy.get('[data-cy="password-input"]').type('Emre.356356')
